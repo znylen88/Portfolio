@@ -1,13 +1,11 @@
+.navbar {
+    height: 80px;
+}
 #Box1 {
     height: 60px;
     background-color: white;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
-
-}
-
-p {
-    padding: px;
 }
 
 #Box2 {
@@ -18,25 +16,13 @@ p {
     line-height: 1.5;
     text-align: left;
     padding-top: 20px;
-
 }
 
-#contact-form {
-    height: auto;
-    background-color: white;
-    font-family: monospace;
-    line-height: 1.5;
-    text-align: left;
-    
-}
-
-.container {
+#container {
     width: auto;
     border: 1.25px solid gray;
     overflow: auto;
-    
-    
-    
+    background-color: white;
 }
 
 #division {
@@ -44,15 +30,12 @@ p {
     padding: 15px;
     margin-bottom: 0px;
     background: hsl(182, 96%, 22%);
-
 }
 
-img {
-    float: left;
-    margin-right: 25px;
-    margin-left: 10px;
-    margin-top: 5px;
-    border-radius: 30px;
+#division2 {
+    height: 5px;
+    margin-bottom: 0px;
+    background: hsl(182, 96%, 22%);
 }
 
 .footer {
@@ -64,9 +47,7 @@ img {
     position: absolute;
     left: 0px;
     bottom: 0px;
-    width: 100%;
-    
-
+    width: 100%;  
 }
 
 .body {
@@ -74,51 +55,17 @@ img {
     margin: 0 0 150px;
 }
 
-
-.form-styles {
-    font-family: monospace;
-    font-size: 14px;
-    background: lightgray;
-    padding-top: 10px;
-
-}
-
 .form-control {
     margin-bottom: 10px;
     margin-top: 10px;
-
 }
 
 .submit {
     background:  hsl(182, 96%, 22%);
-    width: 120px;
-    border-radius: 20px;
+    width: 150px;
+    border-radius: 10px;
     color: white;
-}
-.gallery {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-
-}
-
-.gallery-image {
-    width: 50%;
-    justify-content: space-between;
-    padding-bottom: 20px;
-    position: relative;
-    justify-content: center;
-
-}
-
-.images {
-    width: 70%;
-    justify-content: space-between;
-    position: relative;
-    justify-content: center;
-
+    height: px;
 }
 
 html {
@@ -126,17 +73,8 @@ html {
     min-height: 100%;
 }
 
-.imagetitle {
-    position: absolute;
-    z-index: 2;
-    background-color:  hsl(182, 96%, 22%); 
-    width: 73%;
-    text-align: center;
-    margin: 100px;
-    margin-left: 0px;
-    color: white;
-    height: 30px;
-    line-height: 2;
+#contactform {
+    font-family: monospace;;
 }
 
 
